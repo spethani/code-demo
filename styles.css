@@ -1,29 +1,19 @@
-body {
-    background-image: url(darkbg.JPG);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.myTitle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 500px;
-    color: white;
+.bg-1 {
+    background-color: #666;
+    color: #fefefe;
     font-family: Pacifico;
+    /*height: 100vh;*/
 }
 h1 {
     font-size: 60px;
-    text-align: center;
-    text-shadow: 2px 2px 2px black;
+
 }
 p{
-    font-size: 20px;
-    text-align: center;
+    font-size: 15px;
 }
-button {
-    position: absolute;
-    left: 36%;
+
+.bg-2 {
+    font-family: Raleway;
 }
 .btn-default {
     border-color: white;
@@ -33,7 +23,7 @@ button {
 
 .btn-default:hover {
     transition-duration: 400ms;
-    background-color: white;
-    border-color: black;
-    color: black;
+    background-color: #fefefe;
+    border-color: #555;
+    color: #666;
 }
